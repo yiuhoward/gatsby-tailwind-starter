@@ -4,4 +4,4 @@
  * See: https://www.gatsbyjs.org/docs/browser-apis/
  */
 
-import "./src/assets/scss/tailwind-base.css"
+import "./src/assets/scss/tailwind-base.scss"
