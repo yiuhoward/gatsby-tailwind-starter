@@ -5,6 +5,21 @@ module.exports = {
     author: `@gatsbyjs`,
   },
   plugins: [
+    `gatsby-plugin-sass`,
+    {
+      resolve: `gatsby-plugin-postcss`,
+      options: {
+        postCssPlugins: [require("tailwindcss")],
+      },
+    },
+    {
+      resolve: `gatsby-plugin-purgecss`,
+      options: {
+        printRejected: false,
+        develop: false,
+        tailwind: true,
+      },
+    },
     `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-filesystem`,
