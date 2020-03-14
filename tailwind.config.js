@@ -7,5 +7,10 @@ module.exports = {
       xl: { max: "1280px" },
       xxl: { min: "1800px" },
     },
+    extend: {
+      zIndex: {
+        "-10": "-10",
+      },
+    },
   },
 }

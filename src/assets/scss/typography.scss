@@ -1,0 +1,85 @@
+@font-face {
+  font-family: "Avenir Light";
+  src: url("../fonts/Avenir-Light.eot");
+  src: url("../fonts/Avenir-Light.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Avenir-Light.woff2") format("woff2"),
+    url("../fonts/Avenir-Light.woff") format("woff"),
+    url("../fonts/Avenir-Light.ttf") format("truetype"),
+    url("../fonts/Avenir-Light.svg#Avenir-Light") format("svg");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Avenir Black";
+  src: url("../fonts/Avenir-Black.eot");
+  src: url("../fonts/Avenir-Black.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Avenir-Black.woff2") format("woff2"),
+    url("../fonts/Avenir-Black.woff") format("woff"),
+    url("../fonts/Avenir-Black.ttf") format("truetype"),
+    url("../fonts/Avenir-Black.svg#Avenir-Black") format("svg");
+  font-weight: 900;
+  font-style: normal;
+}
+
+html {
+  font-size: 62.5%;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+:root {
+  --title: "Avenir Black";
+  --body: "Avenir Light";
+}
+
+.hero {
+  font-family: var(--title);
+  font-size: 5rem;
+  line-height: 1.2;
+}
+
+.headline {
+  font-family: var(--title);
+  font-size: 4.2rem;
+  line-height: 1.24;
+}
+
+.title {
+  font-family: var(--title);
+  font-size: 3.2rem;
+  line-height: 1.25;
+}
+
+.large-text {
+  font-family: var(--body);
+  font-size: 2.4rem;
+  line-height: calc(32 / 24);
+}
+
+.body {
+  font-family: var(--body);
+  font-size: 1.6rem;
+  line-height: 1.5;
+}
+
+.small-copy {
+  font-family: var(--body);
+  font-size: 1.4rem;
+  line-height: calc(20 / 14);
+}
+
+.captions {
+  font-family: var(--body);
+  font-size: 1.2rem;
+  line-height: calc(16 / 12);
+  letter-spacing: 2px;
+}
+
+.font-title {
+  font-family: var(--title);
+}
+
+.font-body {
+  font-family: var(--body);
+}
